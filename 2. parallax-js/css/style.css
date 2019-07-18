@@ -1,0 +1,41 @@
+body {margin:0}
+*{box-sizing: border-box;}
+
+.scene {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 100vh;
+}
+.layer{
+  position: fixed;
+  left: -30%;
+  top:0;
+  width: 130%;
+  height: 100%;
+/* даун на исламове предлагал позицию абсолют */
+}
+
+
+
+.layer-bg{
+  background:url("http://pluspng.com/img-png/png-field-field-png-pic-1600.png") center no-repeat;
+  background-size: cover;
+  z-index: 1;
+
+}
+
+.layer-2{
+  background:url("http://www.playcast.ru/uploads/2015/12/21/16430705.png") center no-repeat;
+  background-size: cover;
+  z-index:0-1;
+
+}
+
+.layer-1{
+  background:url("https://steemitimages.com/DQmdxiaAnt3KJnCQjj5QWWfwJ16dx1AUoviFawjNvNFZvfq/04.jpg") center no-repeat;
+  background-size: cover;
+
+}
