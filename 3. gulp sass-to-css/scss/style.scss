@@ -1,0 +1,51 @@
+$grey: #ccc;
+$big: 900px;
+$text-color: #green;
+$hover-color: lightblue;
+$image: url("https://popugai.info/wp-content/uploads/photo-gallery/kakadu/2900x1965_661290_[www.ArtFile.ru].jpg") center no-repeat;
+$border: 10px solid green;
+$bg-header: rgba(144, 238, 144, .46);
+
+@mixin flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@mixin h2-position {
+  padding: 10px;
+  width: 400px;
+}
+
+
+
+@mixin cover {
+  background-size: cover;
+}
+
+@mixin margin-auto {
+  margin: 40px auto;
+}
+
+
+.red-div {
+  background: $image;
+  border: $border;
+  min-height: $big;
+  width: $big;
+  color: $text-color;
+  @include margin-auto;
+  @include cover;
+  @include flex;
+
+&:hover {
+    color: $hover-color;
+  }
+}
+
+h2 {
+  @include h2-position;
+  background-color: $bg-header;
+}

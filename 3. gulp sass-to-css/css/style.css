@@ -1,0 +1,19 @@
+.red-div {
+  background: url("https://popugai.info/wp-content/uploads/photo-gallery/kakadu/2900x1965_661290_[www.ArtFile.ru].jpg") center no-repeat;
+  border: 10px solid green;
+  min-height: 900px;
+  width: 900px;
+  color: #green;
+  margin: 40px auto;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .red-div:hover {
+    color: lightblue; }
+
+h2 {
+  padding: 10px;
+  width: 400px;
+  background-color: rgba(144, 238, 144, 0.46); }
