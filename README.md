@@ -1,6 +1,13 @@
 # testing-js-and-css
 
-Here will be posted some vanilla js and css things (I hope) ;D
+Here I post:
+
++ some vanilla js and css things;
++ SASS and gulp things.
+
+<img src="horoshiyplohoizloi.gif">
+<br>
+<br>
 
 <h3>1. adaptive bg-video</h3>
 
