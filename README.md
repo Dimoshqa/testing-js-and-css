@@ -7,7 +7,6 @@ Here I post:
 
 <img src="horoshiyplohoizloi.gif">
 <br>
-<br>
 
 <h3>1. adaptive bg-video</h3>
 
