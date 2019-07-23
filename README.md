@@ -24,3 +24,9 @@ gulp script + files to translate SCSS (sass-files) to css.
 For use in cmd write "gulp sass".
 
 Next I'll try make landing with every section in personal .scss-file.
+
+[IN PROGRESS...]
+
+<h3>4. progress-bar </h3>
+
+Progress bar on top of screen on vanilla JS.
